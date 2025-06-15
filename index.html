@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+  </style>
+</head>
+
+<body class="light-theme">
+  <section class="calci-body">
+    <!-- head of calci  -->
+    <div class="head-area">
+      <h2 class="logo">Calc</h2>
+      
+      <!-- theme setting area -->
+      <div class="theme-slider-area">
+        <span class="th-text">THEME</span>
+        <div class="theme-elem-cont">
+          <div class="theme-item-cont">
+            
+            <!-- theme 1 -->
+            <div class="theme-item">
+              
+                  <input type="radio" name="theme" id="theme1" class="theme-radio" checked value="theme-1" >
+                  <label class="theme-label" for="theme1">1</label>
+                </div>
+                <!-- theme 2 -->
+                <div class="theme-item">
+                  <input type="radio" name="theme" id="theme2" class="theme-radio"
+                  value="theme-2">
+                  <label class="theme-label" for="theme2">2</label>
+                  
+                </div>
+                <!-- theme 3 -->
+                <div class="theme-item">
+                  <input type="radio" name="theme" id="theme3" class="theme-radio" value="theme-3">
+                  <label class="theme-label" for="theme3">3</label>
+                </div>
+              </div>
+              <div class="slider">
+                <div  style="--i: 5;" class="slider-ball"></div>
+                <div  style="--i: 4;"class="slider-ball"></div>
+                <div  style="--i: 3;"class="slider-ball"></div>
+                <div  style="--i: 2;"class="slider-ball"></div>
+                <div  style="--i: 1;"class="slider-ball"></div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+
+    <!-- screen of calci  -->
+
+      <input type="text" name="screen" class="display" placeholder="" readonly>
+  
+    <div class="key-container">
+      <section class="main-keys">
+
+        <span class="num-key n1-key">7</span>
+        <span class="num-key n1-key">8</span>
+        <span class="num-key n1-key">9</span>
+        <button class="num-key" id="del-key">DEL </button>
+        <span class="num-key n1-key">4</span>
+        <span class="num-key n1-key">5</span>
+        <span class="num-key n1-key">6</span>
+        <span class="num-key n1-key">+</span>
+        <span class="num-key n1-key">1</span>
+        <span class="num-key n1-key">2</span>
+        <span class="num-key n1-key">3</span>
+        <span class="num-key n1-key">-</span>
+        <span class="num-key n1-key">.</span>
+        <span class="num-key n1-key">0</span>
+        <span class="num-key n1-key">/</span>
+        <span class="num-key n1-key">x</span>
+      </section>
+      <section class="other-keys">
+        <button class="ctrl-keys" id="reset-key">RESET</button>
+        <button class="ctrl-keys" id="eq-key">=</button>
+      </section>
+    </div>
+  </section>
+
+
+  </div>
+  <script src="index.js">
+    
+</script>
+</body>
+
+</html>
