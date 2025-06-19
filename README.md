@@ -4,11 +4,10 @@
   A sleek, responsive calculator with multiple themes and sound effects built using <b>HTML, CSS, and JavaScript</b>.
 </p>
 
-<p">
   <img src="https://img.shields.io/badge/Responsive-%E2%9C%94-green" />
   <img src="https://img.shields.io/badge/Themes-3+-blueviolet" />
   <img src="https://img.shields.io/badge/Sound%20Effects-%F0%9F%94%8A-lightgrey" />
-</p>
+
 
 ---
 
