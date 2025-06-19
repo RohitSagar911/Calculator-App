@@ -51,7 +51,7 @@
 
 ## 🎮 Demo
 
-👉 [Live Demo on Netlify]()
+👉 [Live Demo on Netlify](https://themed-calculator-js.netlify.app/)
 
 ---
 
